@@ -11,11 +11,11 @@ const numberBox = {
   float: "left"
 };
 
-const Display = () => {
+const Display = props => {
   return (
     <div>
       <div style={numberBox}>
-        <Numbers />
+        <Numbers testClick={props.testClick} />
       </div>
     </div>
   );

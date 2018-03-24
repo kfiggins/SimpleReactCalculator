@@ -11,7 +11,13 @@ const calculatorButton = {
 const CalculatorButton = props => {
   return (
     <div>
-      <RaisedButton style={calculatorButton}>{props.displayValue}</RaisedButton>
+      <RaisedButton
+        onClick={props.testClick.bind(this, props.displayValue)}
+        style={calculatorButton}
+        label=" "
+      >
+        {props.displayValue}
+      </RaisedButton>
     </div>
   );
 };
