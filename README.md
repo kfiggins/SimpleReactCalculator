@@ -1,4 +1,4 @@
-﻿This is my first react app. I created a simple calculator.
+﻿This is my first complete react app. I created a simple calculator.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
